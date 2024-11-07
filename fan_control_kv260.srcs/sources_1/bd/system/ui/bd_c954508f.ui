@@ -1,0 +1,45 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.321276",
+   "Default View_TopLeft":"-563,22",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 threadsafe
+#  -string -flagsOSRD
+preplace port port-id_fan_pin -pg 1 -lvl 7 -x 1950 -y 440 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 520 -y 660 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 230 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 2 -x 520 -y 100 -defaultsOSRD
+preplace inst proc_sys_reset_2 -pg 1 -lvl 2 -x 520 -y 460 -defaultsOSRD
+preplace inst proc_sys_reset_3 -pg 1 -lvl 2 -x 520 -y 280 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 4 -x 1280 -y 730 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -x 980 -y 710 -defaultsOSRD
+preplace inst system_management_wiz_0 -pg 1 -lvl 4 -x 1280 -y 540 -defaultsOSRD
+preplace inst divider_0 -pg 1 -lvl 5 -x 1560 -y 420 -defaultsOSRD
+preplace inst pwm_0 -pg 1 -lvl 6 -x 1810 -y 440 -defaultsOSRD
+preplace inst temp2pwm_0 -pg 1 -lvl 5 -x 1560 -y 570 -defaultsOSRD
+preplace netloc axi_intc_0_irq 1 1 4 230 860 NJ 860 NJ 860 1410
+preplace netloc clk_wiz_0_clk_out1 1 1 1 200 60n
+preplace netloc clk_wiz_0_clk_out2 1 1 4 210 750 830 850 1150 410 NJ
+preplace netloc clk_wiz_0_clk_out3 1 1 1 N 240
+preplace netloc clk_wiz_0_locked 1 1 1 220 140n
+preplace netloc divider_0_clk_out 1 5 1 N 420
+preplace netloc proc_sys_reset_2_peripheral_aresetn 1 2 4 840 570 1130 820 1430 490 1690
+preplace netloc pwm_0_state 1 6 1 NJ 440
+preplace netloc system_management_wiz_0_eos_out 1 4 1 N 560
+preplace netloc system_management_wiz_0_temp_out 1 4 1 1440 580n
+preplace netloc temp2pwm_0_pwm 1 5 1 1680 440n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 10 0 NJ 0 820
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 20 320 230 560 810
+preplace netloc ps8_0_axi_periph_M00_AXI 1 3 1 N 700
+preplace netloc ps8_0_axi_periph_M01_AXI 1 3 1 1140 510n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 2 1 N 630
+levelinfo -pg 1 -20 110 520 980 1280 1560 1810 1950
+pagesize -pg 1 -db -bbox -sgen -20 -20 2070 880
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"5",
+   "da_clkrst_cnt":"4",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

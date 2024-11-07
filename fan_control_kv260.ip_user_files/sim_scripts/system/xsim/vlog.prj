@@ -1,0 +1,11 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" --include "../../../../fan_control_kv260.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../fan_control_kv260.gen/sources_1/bd/system/ipshared/a317/hdl" --include "../../../../fan_control_kv260.gen/sources_1/bd/system/ipshared/3242" \
+"../../../bd/system/ip/system_zynq_ultra_ps_e_0_0/sim/system_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.v" \
+"../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../bd/system/sim/system.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
